@@ -1,4 +1,8 @@
 # Pagination
+
+Pagination is the process of dividing a large list of items into smaller chunks (or "pages") to make it easier to display in a user interface. For example, think of a website that shows search results across multiple pages, where each page has a certain number of results.
+
+
 Pagination allows you to retrieve data (REST resources) in an efficient way that doesn't strain the backend or frontend. More specifically, it allows you to partition data into digestible segments. This helps ensures smooth data transactions, which prevents server strain and enhances client experiences.
 
 Most endpoints that returns a list of entities will need to have some sort of pagination.
