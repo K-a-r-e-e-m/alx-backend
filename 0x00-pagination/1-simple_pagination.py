@@ -39,5 +39,5 @@ class Server:
         assert type(page_size) is int and page_size > 0
         start_idx, end_idx = index_range(page, page_size)
         data = self.dataset()
-        return data[start_idx:end_idx] # Using Slicing
+        return data[start_idx:end_idx]  # Using Slicing
         # return [data[i] for i in range(start_idx, end_idx) if i < len(data)]
